@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Colors */
+    --global-bg-1: #10377933;
+    --global-bg-2: #1c1c1c;
+    --global-bg-3: #1e2c4e;
+    --global-bg-4: #2844a866;
+    --global-bg-5: #31418c4c;
+    --global-bg-6: #31418c66;
+    --global-bg-7: #31418c99;
+    --global-bg-8: #3b3b41;
+    --global-bg-9: #4b07074c;
+    --global-bg-10: #5f7ef13f;
+    --global-bg-11: #b9b8b8;
+    --global-bg-12: #f73f7c66;
+    --global-text-1: #ffffff;
+    --global-text-2: #faf8f2;
+
+    /* Button Colors */
+    --button-bg-1: #22242d;
+    --button-bg-2: #e1bf6d;
+    --button-text-1: #1e1e1e;
+    --button-text-2: #faf8f2;
+
+    /* SearchView Colors */
+    --searchview-bg-1: #43434328;
+
+    /* Slider Colors */
+    --slider-bg-1: #1e1e1e4c;
+    --slider-text-1: #ffffff7f;
+  }
+}
+
+@layer utilities {
+  /* Global */
+  .bg-global-1 {
+    background-color: var(--global-bg-1);
+  }
+  .bg-global-2 {
+    background-color: var(--global-bg-2);
+  }
+  .bg-global-3 {
+    background-color: var(--global-bg-3);
+  }
+  .bg-global-4 {
+    background-color: var(--global-bg-4);
+  }
+  .bg-global-5 {
+    background-color: var(--global-bg-5);
+  }
+  .bg-global-6 {
+    background-color: var(--global-bg-6);
+  }
+  .bg-global-7 {
+    background-color: var(--global-bg-7);
+  }
+  .bg-global-8 {
+    background-color: var(--global-bg-8);
+  }
+  .bg-global-9 {
+    background-color: var(--global-bg-9);
+  }
+  .bg-global-10 {
+    background-color: var(--global-bg-10);
+  }
+  .bg-global-11 {
+    background-color: var(--global-bg-11);
+  }
+  .bg-global-12 {
+    background-color: var(--global-bg-12);
+  }
+  .text-global-1 {
+    color: var(--global-text-1);
+  }
+  .text-global-2 {
+    color: var(--global-text-2);
+  }
+
+  /* Button */
+  .bg-button-1 {
+    background-color: var(--button-bg-1);
+  }
+  .bg-button-2 {
+    background-color: var(--button-bg-2);
+  }
+  .text-button-1 {
+    color: var(--button-text-1);
+  }
+  .text-button-2 {
+    color: var(--button-text-2);
+  }
+
+  /* SearchView */
+  .bg-searchview-1 {
+    background-color: var(--searchview-bg-1);
+  }
+
+  /* Slider */
+  .bg-slider-1 {
+    background-color: var(--slider-bg-1);
+  }
+  .text-slider-1 {
+    color: var(--slider-text-1);
+  }
+
+  /* Universal Background */
+  .bg-hero {
+    background-image: url('/images/Hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Hero Content Styles */
+  .prescription-treatments-for {
+    margin: 0;
+  }
+
+  .health-goals {
+    margin: 0;
+    background: linear-gradient(180deg, #c1842d, #ecc974);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .title {
+    align-self: stretch;
+    position: relative;
+    line-height: 120%;
+    text-transform: capitalize;
+  }
+
+  .text {
+    position: relative;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .button {
+    width: 248px;
+    border-radius: 32px;
+    background-color: #22242d;
+    border: 2px solid #db5095;
+    box-sizing: border-box;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10.7px 16px;
+    font-size: 22px;
+    font-family: 'Neue Montreal';
+  }
+
+  .hero-contents {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 33.8px;
+    text-align: left;
+    font-size: 80px;
+    color: #fff;
+    font-family: Impact;
+  }
+}

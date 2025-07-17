@@ -1,0 +1,25 @@
+{
+  "name": "Rizz Pharmacy",
+  "short_name": "Rizz Pharmacy",
+  "description": "Prescription treatments for your health needs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["health", "medical", "pharmacy"],
+  "lang": "en-US",
+  "dir": "ltr"
+}
